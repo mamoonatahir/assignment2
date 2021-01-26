@@ -19,3 +19,7 @@ else if ( a == "hyderabad" || a == "HYDERABAD" || a == "Hyderabad") {
     console.log(" Welcome to the city of Rubri");
     document.write(" <h1>Welcome to the city of Rubri</h1>");
 }
+else if ( a == "USA" || a == "usa" || a == "Usa") {
+    console.log(" Welcome to the country of my grand father");
+    document.write(" <h1>Welcome to the city of my grand father</h1>");
+}
