@@ -8,12 +8,12 @@ console.log("English Marks =  "+ engMarks);
 document.write("<h1>Maths Marks = " + mathMarks);
 document.write("<h1>Science Marks = " + sciMarks);
 document.write("<h1>English Marks = " + engMarks);
-console.log(totalMarks);
-document.write("<h1> Total Marks = " + totalMarks );
+console.log("Marks Obtained =" +totalMarks);
+document.write("<h1>  Marks Obtained = " + totalMarks );
 var perCent = totalMarks / 300 *100;
 console.log(perCent);
-document.write("<h1> Percentage = " + perCent);
-if(perCent >= 80) { 
+document.write("<h1> Percentage = " + perCent +"%");
+if(perCent > 79 && perCent <= 100) { 
     console.log("Grade A-one");
     document.write("<h1>Grade A-one </h1.");
     document.write("<h1>Remarks :  Excellent </h1>");
