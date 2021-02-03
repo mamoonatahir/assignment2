@@ -1,3 +1,4 @@
+var nameOfcan = prompt("Write your name");
 var mathMarks = parseFloat(prompt("Enter your Math marks"));
 var sciMarks = parseFloat(prompt("Enter your Science Marks"));
 var engMarks = parseFloat(prompt("Enter your English Marks"));
@@ -5,6 +6,7 @@ var totalMarks = mathMarks + sciMarks + engMarks;
 console.log("Maths Marks = " + mathMarks);
 console.log("Science Marks = " + sciMarks);
 console.log("English Marks =  "+ engMarks);
+document.write("<h1>name: "+ nameOfcan );
 document.write("<h1>Maths Marks = " + mathMarks);
 document.write("<h1>Science Marks = " + sciMarks);
 document.write("<h1>English Marks = " + engMarks);
@@ -31,4 +33,5 @@ else if(perCent >= 60) {
 else if(perCent <60) {
     console.log("Grade = Fail");
     document.write("<h1>Grade = Fail</h1> ");
-    document.write("<h1>Remarks:  Sorry</h1>");
+    document.write("<h1>Remarks:  Sorry</h1>" );
+}
