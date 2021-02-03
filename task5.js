@@ -1,2 +1,2 @@
-var a = "hello \tworld";  
+var a = "hello \world";  
 console.log(a);
