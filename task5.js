@@ -1,2 +1,8 @@
-var a = "hello \world";  
-console.log(a);
+var a = +prompt("enter number");  
+b = a%2;
+if( b== 0 ){
+    console.log("this is a composit number")
+}
+else if( b<=1 ){
+    console.log("this is prime factor")
+}
