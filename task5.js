@@ -4,5 +4,5 @@ if( b== 0 ){
     console.log("this is a composit number")
 }
 else if( b <=1 ){
-    console.log("this is prime factor")
+    console.log("This is prime number")
 }
